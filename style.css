@@ -1,0 +1,27 @@
+body{
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+#heading{
+    font-family: 'Times New Roman';
+    color:rgb(2, 5, 206);
+}
+#myGuess{
+    border-radius: 8px;
+    padding: 10px,10px;
+}
+#mySubmit{
+    padding: 10px,10px;
+    border-color: rgb(28, 0, 65);
+    border-radius: 10px;
+    background-color: rgb(2, 158, 230);
+    cursor: pointer;
+    size: 2em;
+    transition: 25s;
+}:hover{
+    background-color: azure;
+}
+#reply{
+    font-family: sans-serif;
+    color: rgb(0, 23, 43);
+}
