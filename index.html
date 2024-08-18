@@ -3,24 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temperature Converter.</title>
-    <link rel="shortcut icon" type="image/png" href="icon.png" type="image/x-icon">
+    <title>Dice Roller</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="Dice/dice.png" type="image/x-icon">
 </head>
 <body>
     
-    <form>
-        <h1>Temperature Conversion:</h1>
-        <input type="number" id="textBox" value="0"><br>
-
-        <input type="radio" id="toFarenheit" name="unit">
-        <label for="toFarenheit">Celcisus → Farenheit</label><br>
-        <input type="radio" id="toCelsius" name="unit">
-        <label for="toCelsius">Farenheit → Celcius</label><br>
-
-        <button type="button" onclick="convert()">Submit</button>
-        <p id="result">Select A Unit.</p>
-    </form>
+    <div id="conatiner">
+        <h1>Dice Roller</h1>
+        <label for="nDice">No. of Dice</label>
+        <input type="number" value="1" min="1" id="nDice">
+        <button onclick="rollDice()">Roll Dice</button>
+        <div id="diceResult"></div>
+        <div id="diceImages"></div>
+    </div>
 
     <script src="index.js"></script>
 </body>
