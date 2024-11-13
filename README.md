@@ -1,2 +1,2 @@
-A basic temperature Converter using javascript.
+A basic dice roller.
 It's my first ever implementation of what I have learnt.
